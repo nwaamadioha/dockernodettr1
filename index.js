@@ -4,7 +4,7 @@ const app = express();
 
 
 app.get("/", function(req, res){
-    res.send("<h1>Hello I have learnt Docker and it's fun</h1>");
+    res.send("<h1>Hello deploying Docker to Heroku is fun</h1>");
 });
 
 
